@@ -1,0 +1,14 @@
+{
+    "presets": [         //preset is a group of plugins
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"    //recent version of jsx
+        }
+      ],
+      "@babel/preset-env"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]    //plugin is one transform
+  }
+
+// transcompiler that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript
